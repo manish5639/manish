@@ -1,0 +1,148 @@
+* {
+    margin: 0%;
+    padding: 0ch;
+    box-sizing: border-box;
+
+}
+
+.navbar {
+    margin:  0px 20px 0px 20px;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    background: gray;
+    background-blend-mode: darken;
+    background-size: cover;
+    cursor: pointer;
+    border-radius: 11px 11px 0px 0px ;
+}
+.nav-list {
+    width: 70%;
+    display:flex;
+    align-items: center;
+}
+.nav-list li {
+    list-style:none;
+    padding: 26px 30px;
+}
+.nav-list li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: larger;
+}
+.nav-list li a:hover {
+    color: rgb(71, 24, 164);
+}
+.nav-list li a::after{
+    color: pink;
+}
+.main {
+
+
+    padding: 0px;
+    background-color: black;
+    border-radius: 0px 0px 15px 5px;
+    border-bottom-style: dotted;
+    border-right-style: dotted;
+    border-left-style: dotted;
+    border-width: 5px;
+    border-color: rgb(0, 0, 0);
+    margin: 0px 20px 0px 20px;
+
+}
+
+.a {
+    text-align: center;
+    margin: 0px 100px 0px 100px;
+    text-shadow: #ffffff 1px 0 10px;
+    height: 100px;
+
+
+
+}
+.bothimg {
+    display: flex;
+
+      
+}
+
+.img2 {
+    margin: 0px 0px 0px 540px;
+    
+
+}
+
+.a h1 {
+    color: rgb(255, 246, 246);
+    font-style: italic, bold;
+    font-family: 'Papyrus';
+    font-size: 60px;
+    text-shadow: #d20909 1px 0 10px;
+
+}
+
+.a h2 {
+    color: #fffcfcdf;
+}
+
+.b {
+    text-align: center;
+    font-size: 30px;
+}
+
+.b h3 {
+
+    display: inline-table;
+    text-shadow: #d20909 1px 0 10px;
+
+}
+
+.button {
+    display: flex;
+}
+
+.text-footer {
+    text-align: center;
+    padding: 30px 0;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: black;
+    margin: 0px 0px 0px 0px;
+    border-radius: 15px;
+
+}
+.background h3{
+    text-align: right;
+    color: whitesmoke;
+}
+h2{
+    font-size: 30px;
+    font-weight: 500;
+    color: #222;
+    letter-spacing: 5px;
+    cursor: pointer;
+}
+h2 span{
+    transition: 0.5s;
+
+}
+h2:hover span:nth-child(1){
+    margin-right: 10px;
+}
+
+h2:hover span:nth-child(2){
+    margin-left: 40px;
+}
+h2:hover span{
+    color: #fff;
+    text-shadow: 0 0 10px rgb(116, 42, 42),
+                 0 0 20px rgb(140, 44, 44),
+                 0 0 40px rgb(116, 42, 42),
+                 0 0 80px rgb(116, 42, 42),
+                 0 0 120px rgb(116, 42, 42),
+                 0 0 160px rgb(116, 42, 42);
+}
